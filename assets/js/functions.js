@@ -128,7 +128,7 @@ $(document).ready(function() {
                         var vid;
                         $.each(data.items, function(i, item){
                             vid = item.snippet.resourceId.videoId;
-                            output = 'http://www.youtube.com/embed/' + vid;
+                            output = 'https://www.youtube.com/embed/' + vid;
                             $('#video').attr("src", output);
                         });
                     }
