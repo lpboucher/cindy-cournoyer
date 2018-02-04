@@ -3,7 +3,7 @@ layout: post
 title: Lunettes Soleil
 categories: Mode
 key: 'feature3'
-thumb: 'assets/img/lunettes.jpg'
+thumb: '/assets/img/lunettes.jpg'
 country: ''
 comments: true
 ---
