@@ -3,7 +3,7 @@ layout: post
 title: Voyage Bali Grand V
 categories: Voyages
 key: 'feature1'
-thumb: 'assets/img/baligrandv.jpg'
+thumb: '/assets/img/baligrandv.jpg'
 country: 'IDN'
 comments: true
 ---
