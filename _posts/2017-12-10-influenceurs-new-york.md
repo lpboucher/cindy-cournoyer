@@ -3,7 +3,7 @@ layout: post
 title: Trip Influenceurs New York
 categories: Lifestyle
 key: 'feature1'
-thumb: 'assets/img/newyork.jpg'
+thumb: '/assets/img/newyork.jpg'
 country: 'USA'
 comments: true
 ---
