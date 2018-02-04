@@ -5,7 +5,7 @@ categories:
 - Voyages
 - Lifestyle
 key: 'feature7'
-thumb: 'assets/img/nicaragua.jpg'
+thumb: '/assets/img/nicaragua.jpg'
 country: 'NIC'
 permalink: /voyages/surf-trip-nicaragua
 comments: true
