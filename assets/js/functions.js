@@ -3,7 +3,7 @@
 
 $(document).ready(function() {
 
-    if ($(location).attr('pathname') == '/voyages/') {
+    if ($(location).attr('pathname') == '/cindy-cournoyer/voyages/') {
         var map = new Datamap({
           element: document.getElementById("map"),
           done: function(datamap) {
@@ -67,10 +67,10 @@ $(document).ready(function() {
 
     }
 
-    else if ( ($(location).attr('pathname') == '/') || ($(location).attr('pathname') != '/voyages/') ) {
+    else if ( ($(location).attr('pathname') == '/cindy-cournoyer/') || ($(location).attr('pathname') != '/cindy-cournoyer/voyages/') ) {
 
         var slides = 0;
-        if ($(location).attr('pathname') == '/') {
+        if ($(location).attr('pathname') == '/cindy-cournoyer/') {
             slides = 3;
         }
         else {
