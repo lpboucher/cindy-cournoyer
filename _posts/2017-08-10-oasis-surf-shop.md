@@ -3,7 +3,7 @@ layout: post
 title: Oasis Surf Shop
 categories: Mode
 key: 'feature6'
-thumb: 'assets/img/oasis.jpg'
+thumb: '/assets/img/oasis.jpg'
 country: ''
 comments: true
 ---
