@@ -2,7 +2,7 @@
     <p class="meta line-meta text-uppercase text-center"><span>{{ page.date | date: "%B %d %Y" }}</span></p>
     <p class="post-title text-center text-uppercase">{{ page.title }}</p>
     <div class="thumb-wrapper">
-        <img class="thumbs" src="{{ page.thumb }}" srcset="" sizes="" alt="">
+        <img class="thumbs" src="{{ site.baseurl }}{{ page.thumb }}" srcset="" sizes="" alt="">
     </div>
     <p class="post-body">{{ content }}</p>
 </div>
