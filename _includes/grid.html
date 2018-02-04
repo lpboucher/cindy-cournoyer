@@ -9,7 +9,7 @@
                      <div class="col-md-4 articles active {{post.country}}">
                          <div id="{{ post.key }}" class="feature">
                              <div class="thumb-wrapper">
-                                 <img id="thumb{{forloop.index}}" class="thumbs" src="{{ post.thumb }}" srcset="" sizes="" alt="">
+                                 <img id="thumb{{forloop.index}}" class="thumbs" src="{{ site.baseurl }}{{ post.thumb }}" srcset="" sizes="" alt="">
                              </div>
                              <p class="title text-uppercase text-center">{{ post.title }}</p>
                              <p class="meta text-uppercase text-center">{{ post.categories }} | {{ post.date | date: "%B %d %Y" }}</p>
