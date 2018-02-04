@@ -3,7 +3,7 @@ layout: post
 title: Bucketlist
 categories: Lifestyle
 key: 'feature2'
-thumb: 'assets/img/bucketlist.jpg'
+thumb: '/assets/img/bucketlist.jpg'
 country: ''
 comments: true
 ---
