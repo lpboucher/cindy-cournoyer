@@ -3,7 +3,7 @@ layout: post
 title: Summer Lookbook
 categories: Mode
 key: 'feature4'
-thumb: 'assets/img/lookbook.jpg'
+thumb: '/assets/img/lookbook.jpg'
 country: ''
 comments: true
 ---
