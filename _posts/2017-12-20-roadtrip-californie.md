@@ -3,7 +3,7 @@ layout: post
 title: Roadtrip en Californie
 categories: Voyages
 key: feature5
-thumb: 'assets/img/californie.jpg'
+thumb: '/assets/img/californie.jpg'
 country: 'USA'
 comments: true
 ---
