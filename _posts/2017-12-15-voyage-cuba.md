@@ -3,7 +3,7 @@ layout: post
 title: Voyage a Cuba
 categories: Voyages
 key: 'feature1'
-thumb: 'assets/img/voyagecuba.jpg'
+thumb: '/assets/img/voyagecuba.jpg'
 country: 'CUB'
 comments: true
 ---
