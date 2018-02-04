@@ -1,0 +1,49 @@
+%background-image
+  background:
+    repeat: no-repeat
+    size: cover
+    position: center
+
+%call-to-action
+    display: inline-block
+    margin: 1em
+    padding: 0.3em 0
+    width: 80%
+    border-radius: 10px
+    background-color: $btncolor
+    opacity: 0.7
+    cursor: pointer
+
+    &:focus,
+    &:hover
+        background-color: $fontfocuscolor
+        border-radius: 0px
+        transition: all 0.5s ease-in
+
+    h3
+        margin: 15px 0
+        font-size: 1em
+
+%header-with-lines
+    position: relative
+    z-index: 1
+
+    &:before
+        border-top: 2px solid #dfdfdf
+        content: ""
+        margin: 0 auto
+        position: absolute
+        top: 50%
+        left: 0
+        right: 0
+        bottom: 0
+        width: 95%
+        z-index: -1
+
+    span
+        background: #fff
+        padding: 0 15px
+
+%sidebar-element
+    padding: 15px 0
+    margin-bottom: 15px

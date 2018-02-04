@@ -1,0 +1,22 @@
+---
+---
+
+@import '1-tools/-tools-dir'
+
+$about_image: "{{ site.data.layout.about }}"
+
+// Set fonts as sass variables
+$theme-font: {{ site.data.layout.main-font }}
+$title-font: {{ site.data.layout.title-font }}
+
+// Set some colors as sass variables
+$bgcolor: {{ site.data.layout.background-color }}
+$headerbgcolor: {{ site.data.layout.header-color }}
+$btncolor: {{ site.data.layout.button-color }}
+$hovercolor: {{ site.data.layout.hover-color }}
+
+$mainfontcolor: {{ site.data.layout.main-font-color }}
+$fontfocuscolor: {{ site.data.layout.font-focus-color }}
+
+@import '2-base/-base-dir'
+@import '3-sections/-sections-dir'

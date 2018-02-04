@@ -1,0 +1,14 @@
+<ul class="share col-md-4 list-unstyled">
+
+        <li class="col-md-2">Partagez</li>
+        {% for item in site.data.navigation.social reversed %}
+        {% if item.in_share %}
+
+        <li class="col-md-1 icons">
+            <a href="{{ item.link }}" target="_blank">{% include icons/{{ item.icon }} %}</a>
+        </li>
+
+        {% endif %}
+        {% endfor %}
+
+</ul>

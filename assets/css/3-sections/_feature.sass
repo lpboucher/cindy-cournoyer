@@ -1,0 +1,101 @@
+#feature
+    margin: 0 15px
+
+    #main
+
+        &:focus,
+        &:hover
+
+            img
+                opacity: 1
+            
+            p
+                letter-spacing: normal
+
+        .line-meta
+            @extend %header-with-lines
+
+        .featured-thumb
+            padding: 0
+
+            @media (max-width: 1030px)
+                width: 100%
+
+            #feature1
+                margin: 0
+
+                .thumb-wrapper
+                    height: 100%
+                    margin: 0
+
+                    @media (max-width: 1030px)
+                        height: 90%
+                
+                p
+                    display: none
+
+                    @media (max-width: 1030px)
+                        display: block
+        
+        .featured-desc
+            @media (max-width: 1030px)
+                    display: none
+
+            .title
+                font-size: 2.5em
+                font-family: $title-font
+
+            .excerpt
+                font-size: 1.5em
+                padding: 50px 80px 40px
+
+                @media (max-width: 1400px)
+                    font-size: 1.3em
+
+                @media (max-width: 1220px)
+                    font-size: 1.2em
+    
+    .feature
+        height: 600px
+        margin: 15px 0
+        font-size: 1.2em
+
+        .thumb-wrapper
+            height: 90%
+
+            .thumbs
+                height: 100%
+                width: 100%
+                object-fit: cover
+
+        p
+            @media (max-width: 1030px)
+                font-size: 0.8em
+
+        &:focus,
+        &:hover
+
+            img
+                opacity: 0.5
+            
+            p
+                letter-spacing: 5px
+                transition: all 0.5s ease-in
+
+                @media (max-width: 1030px)
+                    letter-spacing: normal
+                    transition: unset
+        
+        .title
+            margin: 10px 0 0
+
+        .meta
+            font-size: 0.75em
+
+    .button
+        @media (max-width: 1220px)
+            width: 50%
+            margin-left: 25%
+        
+        .box
+            @extend %call-to-action

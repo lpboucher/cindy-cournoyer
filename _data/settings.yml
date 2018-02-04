@@ -1,0 +1,31 @@
+#-------------------------------
+# General Site Settings
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+title: Cindy Cournoyer
+email: cindy@dulcedo.com
+quote: '"Dear ocean, thank you for making us feel tiny, inspired and salty all at once." - unknown'
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# Contact Section
+
+instafeed:
+#  clientid: 8329d44b0a85419ab41aa7c49d0b680b
+#  userid: 275454434
+#  token: 275454434.eb84a20.8791023d42dd4bf29e1986fd488633f9
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

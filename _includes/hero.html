@@ -1,0 +1,11 @@
+<section id="hero" class="jumbotron-fluid">
+    <div class="hero col-12">
+
+        {% for hero in site.data.layout.hero %}
+                <div class="item">
+                    <img class="hero-img" src="{{ hero.thumb }}" srcset="" sizes="" alt="">
+                </div>
+        {% endfor %}
+
+    </div>
+</section>

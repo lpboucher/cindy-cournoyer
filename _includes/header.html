@@ -1,0 +1,38 @@
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top text-uppercase">
+    <div class="container-fluid">
+      <div class="navbar-left">
+        <ul class="nav navbar-nav collapse navbar-collapse navHeaderCollapse">
+
+            {% for item in site.data.navigation.menu %}
+
+                {% unless forloop.first %}
+                <li class="vr"></li>
+                {% endunless %}
+                <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+
+            {% endfor %}
+
+        </ul>
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+      <div class="navbar-header navbar-right">
+        <ul class="nav navbar-nav social">
+            
+            {% for item in site.data.navigation.social %}
+            {% if item.in_header %}
+
+                <li><a href="{{ item.link }}" target="_blank">{% include icons/{{ item.icon }} %}</a></li>
+
+            {% endif %}
+            {% endfor %}
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

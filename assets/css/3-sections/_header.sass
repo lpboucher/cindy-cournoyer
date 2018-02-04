@@ -1,0 +1,58 @@
+header
+    .navbar-default
+        background-color: $headerbgcolor
+        font-size: 1.2em
+
+        .navbar-nav
+            @media (max-width: 940px)
+                font-size: 80%
+
+            & > li > a
+                color: $mainfontcolor
+
+                &:focus,
+                &:hover
+                    color: $fontfocuscolor
+
+                @media (max-width: 850px)
+                    padding-left: 10px
+                    padding-right: 10px
+
+
+
+
+    .navbar
+        margin: 0
+
+    .social
+        li
+            a
+                padding-top: 11px
+                padding-bottom: 11px
+
+                &:focus,
+                &:hover
+                    svg
+                        path
+                            fill: $fontfocuscolor
+
+                svg
+                    height: 24px
+
+                    @media (max-width: 850px)
+                        height: 20px
+
+                    path
+                        fill: $mainfontcolor
+
+    .social > li
+        float: right !important
+
+    .navbar-toggle
+        float: left
+
+    .vr
+        width: 1px
+        height: 20px
+        margin: 15px 0
+        background-color: $mainfontcolor

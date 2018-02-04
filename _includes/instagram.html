@@ -1,0 +1,21 @@
+
+<section id="insta" class="row">
+    <div class="col-12 text-center">
+        <h2 class="text-uppercase">Instagram | @cindycournoyer</h2>
+        <div id="instafeed">
+
+        </div>
+        <script type="text/javascript">
+          var userFeed = new Instafeed({
+            get: 'user',
+            userId: '{{ site.data.settings.instafeed.userid }}',
+            accessToken: '{{ site.data.settings.instafeed.token }}',
+            resolution: 'thumbnail',
+            sortBy: 'most-recent',
+            limit: 8,
+            links: false
+          });
+          userFeed.run();
+        </script>
+    </div>
+</section>

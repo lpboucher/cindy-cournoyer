@@ -1,0 +1,56 @@
+
+  <section id="feature" class="row">
+         {% for post in site.posts limit:6 %}
+
+            {% case forloop.index %}
+                {% when 1 %}
+                  <div id="main" class="col-md-12 feature">
+                {% when 2 %}
+                  <div class="col-md-3">
+                {% when 3 %}
+                  <div class="col-md-6">
+                {% when 4 %}
+                  <div class="col-md-3">
+                {% when 5 %}
+                  <div class="col-md-4">
+                {% when 6 %}
+                  <div class="col-md-8">
+            {% endcase %}
+            {% if forloop.first %}
+              <div class="col-md-4 featured-thumb">
+                  <div id="feature{{forloop.index}}" class="feature">
+                      <div class="thumb-wrapper">
+                          <img id="thumb{{forloop.index}}" class="thumbs" src="{{ post.thumb }}" srcset="" sizes="" alt="">
+                      </div>
+                      <p class="title text-uppercase">{{ post.title }}</p>
+                      <p class="meta text-uppercase">{{ post.categories }} | {{ post.date | date: "%B %d %Y" }}</p>
+                  </div>
+               </div>
+                  <div class="col-md-8 featured-desc">
+                      <p class="title text-uppercase text-center">{{ post.title }}</p>
+                      <p class="meta line-meta text-uppercase text-center"><span>{{ post.date | date: "%B %d %Y" }}</span></p>
+                      <p class="excerpt text-justify">{{ post.content | strip_html | truncatewords:70 }}</p>
+                      <div class="col-md-4 col-md-offset-4 text-center text-uppercase button">
+                          <span class="box">
+                              <h3>Lire l'article</h3>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+            {% else %}
+                  <div id="feature{{forloop.index}}" class="feature">
+                      <div class="thumb-wrapper">
+                          <img id="thumb{{forloop.index}}" class="thumbs" src="{{ post.thumb }}" srcset="" sizes="" alt="">
+                      </div>
+                      <p class="title text-uppercase">{{ post.title }}</p>
+                      <p class="meta text-uppercase">{{ post.categories }} | {{ post.date | date: "%B %d %Y" }}</p>
+                  </div>
+              </div>
+            {% endif %}
+         {% endfor %}
+         <div class="col-md-2 col-md-offset-5 text-center text-uppercase button">
+             <span class="box">
+                 <h3>Tous mes articles</h3>
+             </span>
+         </div>
+    </section><!-- closing row feature -->

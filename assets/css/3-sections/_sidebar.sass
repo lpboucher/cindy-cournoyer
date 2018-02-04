@@ -1,0 +1,40 @@
+.sidebar
+    @media (max-width: 1030px)
+        display: none
+        
+    #social
+        ul
+            @extend %sidebar-element
+
+            p
+                @media (max-width: 1220px)
+                    font-size: 0.75em
+
+            svg
+                height: 24px
+    
+    #shop .products
+        @extend %sidebar-element
+        height: 200px
+    
+    #youtube
+        div
+            @extend %sidebar-element
+
+    .line-title
+        @extend %header-with-lines
+
+    #related
+        .feature
+            height: 400px
+        
+            .thumb-wrapper
+                height: 90%
+
+                .thumbs
+                    height: 100%
+                    width: 100%
+                    object-fit: cover
+
+    h3
+        margin-top: 0px

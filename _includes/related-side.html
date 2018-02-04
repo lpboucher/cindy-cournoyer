@@ -1,0 +1,28 @@
+{% for post in site.posts %}
+    {% if post.url != page.url %}
+
+        {% assign maxRelated = 6 %}
+        {% assign columnWidth = 12 %}
+
+        {% for category in post.categories %}
+            {% unless page.categories contains category %}
+                <div class="col-md-{{ columnWidth }}">
+                    <div id="feature" class="feature">
+                        <p class="title text-uppercase">{{ post.title }}</p>
+                        <div class="thumb-wrapper">
+                            <img id="thumb{{forloop.index}}" class="thumbs" src="{{ post.thumb }}" srcset="" sizes="" alt="">
+                        </div>
+                    </div>
+                </div>
+        {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+
+            {% endunless %}
+        {% endfor %}
+
+    {% endif %}
+
+    {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+    {% endif %}
+
+{% endfor %}

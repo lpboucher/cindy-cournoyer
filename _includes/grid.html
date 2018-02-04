@@ -1,0 +1,21 @@
+
+  <section id="grid" class="grid">
+    <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="text-uppercase">{{ page.title }}</h2>
+        </div>
+             {% for post in site.posts %}
+                 {% if post.categories contains page.title %}
+                     <div class="col-md-4 articles active {{post.country}}">
+                         <div id="{{ post.key }}" class="feature">
+                             <div class="thumb-wrapper">
+                                 <img id="thumb{{forloop.index}}" class="thumbs" src="{{ post.thumb }}" srcset="" sizes="" alt="">
+                             </div>
+                             <p class="title text-uppercase text-center">{{ post.title }}</p>
+                             <p class="meta text-uppercase text-center">{{ post.categories }} | {{ post.date | date: "%B %d %Y" }}</p>
+                         </div>
+                     </div>
+                {% endif %}
+             {% endfor %}
+         </div>
+    </section><!-- closing row feature -->

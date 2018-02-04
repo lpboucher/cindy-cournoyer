@@ -1,0 +1,19 @@
+{% include meta-head.html %}
+
+{% include header.html %}
+
+{% include banner.html %}
+
+{% if page.url == "/voyages/" %}
+
+    {% include map.html %}
+
+{% endif %}
+
+{% include grid.html filter = cat %}
+
+{% include instagram.html %}
+
+{% include footer.html %}
+
+{% include meta-foot.html %}

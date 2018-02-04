@@ -1,0 +1,40 @@
+<section class="sidebar col-md-12 row">
+
+        <div id="social" class="row text-center">
+            <h3 class="line-title text-uppercase"><span>suivez-moi</span></h3>
+            <ul class="col-md-12 list-unstyled">
+
+                {% for item in site.data.navigation.social reversed %}
+                {% if item.in_sidebar %}
+
+                <li class="col-md-4">
+                    <a href="{{ item.link }}" target="_blank">{% include icons/{{ item.icon }} %}</a>
+                    <p class="text-uppercase">{{ item.name }}</p>
+                </li>
+
+                {% endif %}
+                {% endfor %}
+
+            </ul>
+        </div>
+
+        <div id="shop" class="row text-center">
+            <h3 class="line-title text-uppercase"><span>mes favoris</span></h3>
+            {% include productslider.html %}
+        </div>
+
+        <div id="youtube" class="row text-center">
+            <h3 class="line-title text-uppercase"><span>youtube</span></h3>
+            {% include youtube.html %}
+        </div>
+
+        <div id="instagram" class="row text-center">
+            <h3 class="line-title text-uppercase"><span>instagram</span></h3>
+        </div>
+
+        <div id="related" class="row text-center">
+            <h3 class="line-title text-uppercase"><span>articles</span></h3>
+            {% include related-side.html %}
+        </div>
+
+</section>

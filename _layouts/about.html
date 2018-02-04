@@ -1,0 +1,24 @@
+{% include meta-head.html %}
+
+{% include header.html %}
+
+{% include banner.html %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="post-wrapper col-md-9">
+            <section id="about-content" class="post-content col-md-12">
+                {% include post-content.html %}
+            </section>
+
+        </div>
+        <aside class="col-md-3">
+            {% include sidebar.html %}
+        </aside>
+    </div>
+</div>
+
+
+{% include footer.html %}
+
+{% include meta-foot.html %}
