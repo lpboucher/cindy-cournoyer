@@ -3,7 +3,7 @@ layout: post
 title: Spa Balnea
 categories: Lifestyle
 key: 'feature1'
-thumb: 'assets/img/spabalnea.jpg'
+thumb: '/assets/img/spabalnea.jpg'
 country: ''
 comments: true
 ---
