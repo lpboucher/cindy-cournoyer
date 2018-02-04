@@ -3,14 +3,14 @@
 # Images
 hero:
 - {name: Toronto,
-    thumb: '/assets/img/hoteltoronto_crop.jpg'}
+    thumb: 'assets/img/hoteltoronto_crop.jpg'}
 - {name: portrait,
     thumb: 'assets/img/newyorkhero.jpg'}
 #    mid: "header-bg_mid.jpg",
 #    small: "header-bg_small.jpg",
 #    mobile: "header-bg_mobile.jpg"}
-about: "/assets/img/oasis.png"
-logo: "/assets/img/logo.jpg"
+about: "assets/img/oasis.png"
+logo: "assets/img/logo.jpg"
 
 # Colors
 background-color: "#FFFFFF"
