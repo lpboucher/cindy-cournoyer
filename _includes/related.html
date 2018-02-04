@@ -14,7 +14,7 @@
                     <div class="col-3 col-md-4 col-lg-4">
                         <div id="" class="feature">
                             <div class="thumb-wrapper">
-                                <img id="thumb{{forloop.index}}" class="thumbs" src="{{ post.thumb }}" srcset="" sizes="" alt="">
+                                <img id="thumb{{forloop.index}}" class="thumbs" src="{{ site.baseurl }}{{ post.thumb }}" srcset="" sizes="" alt="">
                             </div>
                             <p class="title text-uppercase">{{ post.title }}</p>
                             <p class="meta text-uppercase">{{ post.categories }}  |  {{ post.date | date: "%B %d %Y" }}</p>
