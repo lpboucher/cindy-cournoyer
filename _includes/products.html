@@ -2,7 +2,7 @@
 <div id="products" class="row">
     {% for product in site.products %}
         <div class="item col-md-6">
-                <img id="thumb{{forloop.index}}" class="thumbs" src="{{ product.presentation }}" srcset="" sizes="" alt="">
+                <img id="thumb{{forloop.index}}" class="thumbs" src="{{ site.baseurl }}{{ product.presentation }}" srcset="" sizes="" alt="">
         </div>
     {% endfor %}
 </div>
