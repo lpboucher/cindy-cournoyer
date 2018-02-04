@@ -3,7 +3,7 @@ layout: post
 title: Shooting Emma Verde
 categories: Mode
 key: 'feature1'
-thumb: 'assets/img/shootingemma.jpg'
+thumb: '{{ site.baseurl }}/assets/img/shootingemma.jpg'
 country: ''
 comments: true
 ---
