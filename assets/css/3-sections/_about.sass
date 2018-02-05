@@ -1,4 +1,13 @@
 #about-content
-    #feature1
-        .thumb-wrapper
-            background-image: url($about_image)
+    .line-meta
+        @extend %header-with-lines
+        margin-top: 2px
+
+    .post-title
+        font-family: $title-font
+        font-size: 350%
+
+    .thumbs
+        max-height: 600px
+        width: 100%
+        object-fit: cover
