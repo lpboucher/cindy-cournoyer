@@ -1,7 +1,7 @@
 header
     .navbar-default
         background-color: $headerbgcolor
-        font-size: 1.2em
+        font-size: 1em
 
         .navbar-nav
             @media (max-width: 940px)
@@ -27,8 +27,6 @@ header
     .social
         li
             a
-                padding-top: 11px
-                padding-bottom: 11px
 
                 &:focus,
                 &:hover
@@ -37,7 +35,7 @@ header
                             fill: $fontfocuscolor
 
                 svg
-                    height: 24px
+                    height: 18px
 
                     @media (max-width: 850px)
                         height: 20px
@@ -56,3 +54,6 @@ header
         height: 20px
         margin: 15px 0
         background-color: $mainfontcolor
+
+        @media (max-width: 767px)
+            display: none
