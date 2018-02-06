@@ -31,26 +31,30 @@
                       <p class="meta line-meta text-uppercase text-center"><span>{{ post.date | date: "%B %d %Y" }}</span></p>
                       <p class="excerpt text-justify">{{ post.content | strip_html | truncatewords:70 }}</p>
                       <div class="col-md-4 col-md-offset-4 text-center text-uppercase button">
-                          <span class="box">
-                              <h3>Lire l'article</h3>
-                          </span>
+                          <a href="{{ site.baseurl }}{{ post.url }}">
+                            <span class="box">
+                                <h3>Lire l'article</h3>
+                            </span>
+                        </a>
                       </div>
                   </div>
               </div>
             {% else %}
                   <div id="feature{{forloop.index}}" class="feature">
-                      <div class="thumb-wrapper">
-                          <img id="thumb{{forloop.index}}" class="thumbs" src="{{ site.baseurl }}{{ post.thumb }}" srcset="" sizes="" alt="">
-                      </div>
-                      <p class="title text-uppercase">{{ post.title }}</p>
-                      <p class="meta text-uppercase">{{ post.categories }} | {{ post.date | date: "%B %d %Y" }}</p>
+                      <a href="{{ site.baseurl }}{{ post.url }}">
+                        <div class="thumb-wrapper">
+                            <img id="thumb{{forloop.index}}" class="thumbs" src="{{ site.baseurl }}{{ post.thumb }}" srcset="" sizes="" alt="">
+                        </div>
+                        <p class="title text-uppercase">{{ post.title }}</p>
+                        <p class="meta text-uppercase">{{ post.categories }} | {{ post.date | date: "%B %d %Y" }}</p>
+                    </a>
                   </div>
               </div>
             {% endif %}
          {% endfor %}
-         <div class="col-md-2 col-md-offset-5 text-center text-uppercase button">
+         <!--<div class="col-md-2 col-md-offset-5 text-center text-uppercase button">
              <span class="box">
                  <h3>Tous mes articles</h3>
              </span>
-         </div>
+         </div>-->
     </section><!-- closing row feature -->

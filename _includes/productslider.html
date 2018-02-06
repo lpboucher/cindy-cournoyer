@@ -1,7 +1,9 @@
 <div class="col-md-10 col-md-offset-1 products">
     {% for item in site.products %}
     <div>
-        <img src="{{ site.baseurl }}{{item.presentation}}" alt="">
+        <a href="{{ site.baseurl }}/shop/">
+            <img src="{{ site.baseurl }}{{item.presentation}}" alt="">
+        </a>
     </div>
     {% endfor %}
 </div>

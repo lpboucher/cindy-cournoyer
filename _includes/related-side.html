@@ -8,10 +8,12 @@
             {% unless page.categories contains category %}
                 <div class="col-md-{{ columnWidth }}">
                     <div id="feature" class="feature">
-                        <p class="title text-uppercase">{{ post.title }}</p>
-                        <div class="thumb-wrapper">
-                            <img id="thumb{{forloop.index}}" class="thumbs" src="{{ site.baseurl }}{{ post.thumb }}" srcset="" sizes="" alt="">
-                        </div>
+                        <a href="{{ site.baseurl }}{{post.url}}">
+                            <p class="title text-uppercase">{{ post.title }}</p>
+                            <div class="thumb-wrapper">
+                                <img id="thumb{{forloop.index}}" class="thumbs" src="{{ site.baseurl }}{{ post.thumb }}" srcset="" sizes="" alt="">
+                            </div>
+                        </a>
                     </div>
                 </div>
         {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
