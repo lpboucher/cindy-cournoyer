@@ -6,12 +6,23 @@
         ul
             @extend %sidebar-element
 
-            p
-                @media (max-width: 1220px)
-                    font-size: 0.75em
+            li
 
-            svg
-                height: 24px
+                p
+                    @media (max-width: 1220px)
+                        font-size: 0.75em
+
+                svg
+                    height: 24px
+
+            li:hover,
+            li:focus
+                p
+                    cursor: pointer
+
+                svg
+                    path
+                        fill: $fontfocuscolor
     
     #shop .products
         @extend %sidebar-element
@@ -27,6 +38,11 @@
     #related
         .feature
             height: 400px
+
+            &:hover,
+            &:focus
+                img
+                    opacity: 0.5
         
             .thumb-wrapper
                 height: 90%
