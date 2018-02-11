@@ -1,12 +1,13 @@
+{% assign maxRelatedCounter = 0 %}
 {% for post in site.posts %}
     {% if post.url != page.url %}
 
-        {% assign maxRelated = 6 %}
-        {% assign columnWidth = 12 %}
+        {% assign maxRelated = 3 %}
+        {% assign columnWidth = 10 %}
 
         {% for category in post.categories %}
-            {% unless page.categories contains category %}
-                <div class="col-md-{{ columnWidth }}">
+            {% unless page.categories contains category%}
+                <div class="col-md-offset-1 col-md-{{ columnWidth }}">
                     <div id="feature" class="feature">
                         <a href="{{ site.baseurl }}{{post.url}}">
                             <p class="title text-uppercase">{{ post.title }}</p>
@@ -16,7 +17,7 @@
                         </a>
                     </div>
                 </div>
-        {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
 
             {% endunless %}
         {% endfor %}
