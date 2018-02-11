@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Voyage Bali Grand V
+date_affichee: '9 Decembre 2017'
 categories: Voyages
 key: 'feature1'
 thumb: '/assets/img/baligrandv.jpg'

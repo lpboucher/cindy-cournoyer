@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Summer Lookbook
+date_affichee: '6 Aout 2017'
 categories: Mode
 key: 'feature4'
 thumb: '/assets/img/lookbook.jpg'

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spa Balnea
+date_affichee: '8 Janvier 2018'
 categories: Lifestyle
 key: 'feature1'
 thumb: '/assets/img/spabalnea.jpg'

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bucketlist
+date_affichee: '2 Aout 2017'
 categories: Lifestyle
 key: 'feature2'
 thumb: '/assets/img/bucketlist.jpg'

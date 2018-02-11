@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Shooting Emma Verde
+date_affichee: '8 Decembre 2017'
 categories: Mode
 key: 'feature1'
 thumb: '/assets/img/shootingemma.jpg'

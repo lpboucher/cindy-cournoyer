@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Voyage a Cuba
+date_affichee: '15 Decembre 2017'
 categories: Voyages
 key: 'feature1'
 thumb: '/assets/img/voyagecuba.jpg'

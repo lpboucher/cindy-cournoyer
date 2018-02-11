@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Surf Trip au Nicaragua
-categories:
+date_affichee: '20 Aout 2018'
+categories: 
 - Voyages
 - Lifestyle
 key: 'feature7'

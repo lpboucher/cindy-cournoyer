@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Roadtrip en Californie
+date_affichee: '20 Decembre 2017'
 categories: Voyages
 key: feature5
 thumb: '/assets/img/californie.jpg'

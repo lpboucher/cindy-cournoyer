@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Oasis Surf Shop
+date_affichee: '10 Aout 2017'
 categories: Mode
 key: 'feature6'
 thumb: '/assets/img/oasis.jpg'

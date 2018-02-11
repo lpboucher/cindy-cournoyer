@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Trip Influenceurs New York
+date_affichee: '10 Decembre 2017'
 categories: Lifestyle
 key: 'feature1'
 thumb: '/assets/img/newyork.jpg'
