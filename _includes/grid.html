@@ -6,13 +6,15 @@
         </div>
              {% for post in site.posts %}
                  {% if post.categories contains page.title %}
-                     <div class="col-md-4 articles active {{post.country}}">
+                     <div class="col-md-3 articles active {{post.country}}">
                          <div id="{{ post.key }}" class="feature">
+                            <a href="{{ site.baseurl }}{{post.url}}">
                              <div class="thumb-wrapper">
                                  <img id="thumb{{forloop.index}}" class="thumbs" src="{{ site.baseurl }}{{ post.thumb }}" srcset="" sizes="" alt="">
                              </div>
                              <p class="title text-uppercase text-center">{{ post.title }}</p>
-                             <p class="meta text-uppercase text-center">{{ post.categories }} | {{ post.date | date: "%B %d %Y" }}</p>
+                             <p class="meta text-uppercase text-center">{{ post.categories }} | {{ post.date_affichee }}</p>
+                            </a>
                          </div>
                      </div>
                 {% endif %}

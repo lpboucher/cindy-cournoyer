@@ -23,12 +23,12 @@
                           <img id="thumb{{forloop.index}}" class="thumbs" src="{{ site.baseurl }}{{ post.thumb }}" srcset="" sizes="" alt="">
                       </div>
                       <p class="title text-uppercase">{{ post.title }}</p>
-                      <p class="meta text-uppercase">{{ post.categories }} | {{ post.date | date: "%B %d %Y" }}</p>
+                      <p class="meta text-uppercase">{{ post.categories }} | {{ post.date_affichee }}</p>
                   </div>
                </div>
                   <div class="col-md-8 featured-desc">
                       <p class="title text-uppercase text-center">{{ post.title }}</p>
-                      <p class="meta line-meta text-uppercase text-center"><span>{{ post.date | date: "%B %d %Y" }}</span></p>
+                      <p class="meta line-meta text-uppercase text-center"><span>{{ post.date_affichee }}</span></p>
                       <p class="excerpt text-justify">{{ post.content | strip_html | truncatewords:70 }}</p>
                       <div class="col-md-4 col-md-offset-4 text-center text-uppercase button">
                           <a href="{{ site.baseurl }}{{ post.url }}">
@@ -46,7 +46,7 @@
                             <img id="thumb{{forloop.index}}" class="thumbs" src="{{ site.baseurl }}{{ post.thumb }}" srcset="" sizes="" alt="">
                         </div>
                         <p class="title text-uppercase">{{ post.title }}</p>
-                        <p class="meta text-uppercase">{{ post.categories }} | {{ post.date | date: "%B %d %Y" }}</p>
+                        <p class="meta text-uppercase">{{ post.categories }} | {{ post.date_affichee }}</p>
                     </a>
                   </div>
               </div>
