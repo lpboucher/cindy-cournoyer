@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 title: ABOUT
 permalink: "/about/"
 thumb: "/uploads/2018/02/11/IMG_5374.jpg"
