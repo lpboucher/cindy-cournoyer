@@ -1,12 +1,27 @@
 ---
 layout: about
-title: ABOUT
+title: "À PROPOS"
 permalink: "/about/"
 thumb: "/uploads/2018/02/11/IMG_5374.jpg"
 ---
+![](/uploads/2018/02/11/IMG_5374.jpg)Après avoir reçu plusieurs questions telles que « où te procures-tu tes vêtements? », « quel trajet as-tu fais lors de ton voyage à Bali? » ou « que penses-tu de _insérer le sujet_? », j’ai décidé de créer ce site à l’aide de la meilleure équipe: [_Velo Creative_](www.velocreative.studio), deux montréalais créatifs et passionnés habitant maintenant à Amsterdam. (Je vais vous en parler plus en profondeur dans un futur article, il mérite tout le crédit de ce beau site!)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Je me nomme Cindy Cournoyer, je suis créatrice de contenu et j’habite à Montréal. Je suis une personne spontanée, indécise, perdue et… tu vas faire le saut si tu n’as jamais entendu ma voix très, _très_ aigue.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+Lorsque j’étais au collégial, mes amis me conseillaient constamment de m’orienter vers la psychologie à l’université, parce que c’est le domaine vers lequel on s’oriente si on veut aider les autres, _tsé_. C’est ce que j’ai fait. Durant cette aventure, j’ai développé une passion pour la création de contenu sur les réseaux sociaux. Des photos vraiment amateurs en voyage, ou encore dans la vie de tous les jours. Je partageais mes coups de cœur mode, prenais beaucoup de photos de mes pieds _lol_, et je prenais plaisir à éditer mon _feed_ _instagram_, aussi con que ça puisse paraître. 
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+Puis, le 12 septembre 2015, j’ai vécu une épreuve difficile qui est peut-être l’élément déclencheur de mon histoire. Mon père – mon meilleur ami, mon confident – a succombé au cancer. C’était l’épreuve la plus difficile que j’ai eu à faire face, mais celle qui m’a rendu résiliente. Alors que tout le monde était occupé à cause du temps des fêtes, j’ai pris ma caméra et j’ai commencé à filmer des vidéos et les publier sur YouTube, _pour le fun_. Puis, comme vous pouvez le constater, aujourd’hui ça m’a mené à cette belle aventure.
+
+Je me suis rendu compte que le domaine de la psychologie aide beaucoup les gens, certes celle du divertissement aussi. J’A-DORE parler de tout et de rien, inspirer les gens à découvrir ou juste changer les idées des autres quand ils vont moins bien.
+
+3 ans plus tard, j’ai voyagé dans plusieurs pays, fait plus de 50 vidéos, rencontré des gens extraordinaires provenant de différents milieux (culturels, du travail), participé à des collaborations avec des entreprises que je n’aurais jamais cru, reçu des messages touchants, été à la radio, participé à des _shooting photo_, trouvé le domaine qui m’intéressait, mais surtout… je suis restée reconnaissante pour ces expériences et je me suis entourée de personnes qui m’aident à grandir en tant que personne. 
+
+ME VOILÀ À VOUS ÉCRIRE ICI _woup woup_! Pour créer PLUS de contenus exclusifs, réunir toutes mes plateformes numériques, donner des détails écrits nulle part ailleurs et débuter une nouvelle aventure!!! 
+
+Are you in?
+
+_Let’s get it started, ah_.
+
+\(Avoue tu l’as chanté dans ta tête)
+
+OK, bye !
