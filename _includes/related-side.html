@@ -3,11 +3,11 @@
     {% if post.url != page.url %}
 
         {% assign maxRelated = 3 %}
-        {% assign columnWidth = 10 %}
+        {% assign columnWidth = 12 %}
 
         {% for category in post.categories %}
             {% unless page.categories contains category%}
-                <div class="col-md-offset-1 col-md-{{ columnWidth }}">
+                <div class="col-md-{{ columnWidth }}">
                     <div id="feature" class="feature">
                         <a href="{{ site.baseurl }}{{post.url}}">
                             <p class="title text-uppercase">{{ post.title }}</p>
