@@ -2,9 +2,9 @@
 layout: about
 title: "À PROPOS"
 permalink: "/about/"
-thumb: "/assets/img/spabalnea.jpg"
+thumb: ''
 ---
-![](/assets/img/IMG_5374.jpg)Après avoir reçu plusieurs questions telles que « où te procures-tu tes vêtements? », « quel trajet as-tu fais lors de ton voyage à Bali? » ou « que penses-tu de _insérer le sujet_? », j’ai décidé de créer ce site à l’aide de la meilleure équipe: [_Velo Creative_](www.velocreative.studio), deux montréalais créatifs et passionnés habitant maintenant à Amsterdam. (Je vais vous en parler plus en profondeur dans un futur article, il mérite tout le crédit de ce beau site!)
+Après avoir reçu plusieurs questions telles que « où te procures-tu tes vêtements? », « quel trajet as-tu fais lors de ton voyage à Bali? » ou « que penses-tu de _insérer le sujet_? », j’ai décidé de créer ce site à l’aide de la meilleure équipe: [_Velo Creative_](www.velocreative.studio), deux montréalais créatifs et passionnés habitant maintenant à Amsterdam. (Je vais vous en parler plus en profondeur dans un futur article, il mérite tout le crédit de ce beau site!)
 
 Je me nomme Cindy Cournoyer, je suis créatrice de contenu et j’habite à Montréal. Je suis une personne spontanée, indécise, perdue et… tu vas faire le saut si tu n’as jamais entendu ma voix très, _très_ aigue.
 
