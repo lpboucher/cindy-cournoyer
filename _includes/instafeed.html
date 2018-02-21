@@ -6,7 +6,7 @@
     get: 'user',
     userId: '{{ site.data.settings.instafeed.userid }}',
     accessToken: '{{ site.data.settings.instafeed.token }}',
-    resolution: 'thumbnail',
+    resolution: '{{ include.size }}',
     sortBy: 'most-recent',
     limit: {{ include.postCount }},
     links: false
