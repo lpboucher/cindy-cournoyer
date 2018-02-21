@@ -25,7 +25,9 @@ quote: '"Dear ocean, thank you for making us feel tiny, inspired and salty all a
 # Contact Section
 
 instafeed:
-#  clientid: 8329d44b0a85419ab41aa7c49d0b680b
-#  userid: 275454434
-#  token: 275454434.eb84a20.8791023d42dd4bf29e1986fd488633f9
+  clientid: ''
+  userid: 279336649
+  token: 279336649.8c9a4c5.2c37584b3f064328b9299bc1cd050773
+  homecount: 8
+  sidecount: 4
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
