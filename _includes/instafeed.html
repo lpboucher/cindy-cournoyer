@@ -1,0 +1,15 @@
+<div id="instafeed">
+
+</div>
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+    get: 'user',
+    userId: '{{ site.data.settings.instafeed.userid }}',
+    accessToken: '{{ site.data.settings.instafeed.token }}',
+    resolution: 'thumbnail',
+    sortBy: 'most-recent',
+    limit: {{ include.postCount }},
+    links: false
+    });
+    userFeed.run();
+</script>
