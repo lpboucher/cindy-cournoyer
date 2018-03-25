@@ -13,13 +13,14 @@
                             <img src="{{ site.baseurl }}{{item.presentation}}" alt="">
                     </div>
                     <div class="col-md-5">
-                        <p class="desc">Some text about the item</p>
+                        <p class="desc">{{ item.content }}</p>
                         <div class="shelf">
                             <p class="meta line-meta text-uppercase text-center"><span>shop</span></p>
-                            <div class="col-md-3">test</div>
-                            <div class="col-md-3">test</div>
-                            <div class="col-md-3">test</div>
-                            <div class="col-md-3">test</div>
+                            {% for feature in item.product-features %}
+                                <div class="col-md-3">
+                                    <img src="{{ site.baseurl }}{{ feature }}" alt="">
+                                </div>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
