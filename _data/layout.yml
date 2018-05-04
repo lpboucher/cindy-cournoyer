@@ -1,25 +1,16 @@
-# Layout settings
-
-# Images
+---
 hero:
-- {name: Toronto,
-    thumb: '/assets/img/hoteltoronto_crop.jpg'}
-- {name: portrait,
-    thumb: '/assets/img/newyorkhero.jpg'}
-#    mid: "header-bg_mid.jpg",
-#    small: "header-bg_small.jpg",
-#    mobile: "header-bg_mobile.jpg"}
+- name: Toronto
+  thumb: "/assets/img/hoteltoronto_crop.jpg"
+- name: portrait
+  thumb: "/assets/img/newyorkhero.jpg"
 about: "/assets/img/oasis.png"
 logo: "/assets/img/logo.jpg"
-
-# Colors
 background-color: "#FFFFFF"
-header-color: "#F8F2F2"
+header-color: "#f8efdb"
 main-font-color: "#000000"
-button-color: "rgba(246, 166, 35, 0.1)"
-font-focus-color: "#DE9E62"
+button-color: rgba(246, 166, 35, 0.1)
+font-focus-color: "#dec2a7"
 hover-color: "#FFFF"
-
-# fonts
 main-font: "'Montserrat', sans-serif"
 title-font: "'Arapey', serif"
