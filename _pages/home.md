@@ -1,6 +1,5 @@
 ---
-layout: post
-title: Nicaragua
-permalink: "/voyage/nicaragua"
+-layout: home
+-title: Home
+-permalink: /
 ---
-bonjour, ceci est un essai.
