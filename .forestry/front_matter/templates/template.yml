@@ -1,12 +1,12 @@
 ---
-hide_body: false
+hide_body: true
 is_partial: false
 fields:
 - name: layout
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: post
 - name: title
   label: Title
   type: text
@@ -16,15 +16,10 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: ''
+  default: Invalid date
 - name: thumb
   label: Thumb
   type: file
-  hidden: false
-  default: ''
-- name: date_affichee
-  label: Date affichee
-  type: text
   hidden: false
   default: ''
 - name: categories
@@ -34,6 +29,11 @@ fields:
   default: ''
 - name: country
   label: Country
+  type: text
+  hidden: false
+  default: ''
+- name: date_affichee
+  label: Date affichee
   type: text
   hidden: false
   default: ''
