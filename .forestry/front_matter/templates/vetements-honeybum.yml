@@ -1,0 +1,34 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: source
+  label: Source
+  type: text
+  hidden: false
+  default: ''
+- name: presentation
+  label: Presentation
+  type: file
+  hidden: false
+  default: ''
+- name: product-features
+  label: Product features
+  type: image_gallery
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
