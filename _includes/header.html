@@ -9,7 +9,7 @@
                 {% unless forloop.first %}
                 <li class="vr"></li>
                 {% endunless %}
-                <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a></li>
+                <li><a href="{% unless item.name == "Videos" %}{{ site.baseurl }}{% endunless %}{{ item.url }}">{{ item.name }}</a></li>
 
             {% endfor %}
 
