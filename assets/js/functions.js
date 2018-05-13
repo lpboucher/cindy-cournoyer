@@ -71,7 +71,7 @@ $(document).ready(function() {
 
         var slides = 0;
         if ($(location).attr('pathname') == '/cindy-cournoyer/') {
-            slides = 3;
+            slides = 4;
         }
         else {
             slides = 2;
