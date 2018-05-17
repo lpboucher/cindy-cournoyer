@@ -1,7 +1,7 @@
 
 <div id="products" class="row">
     {% for product in site.products %}
-        <div class="item col-md-4">
+        <div class="item col-md-4 col-sm-6 col-xs-12">
             <a data-toggle="modal" data-target=".bs-example-modal-lg">
                 <img id="thumb{{forloop.index}}" class="thumbs" src="{{ site.baseurl }}{{ product.presentation }}" srcset="" sizes="" alt="">
             </a>
